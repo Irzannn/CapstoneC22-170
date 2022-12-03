@@ -13,6 +13,7 @@ function NavBar () {
           <div className='collapse navbar-collapse' id="basic-navbar-nav">
             <ul className="nav ms-auto navbar-nav">
               <li><Link className="nav-link" to="/">Home</Link></li>
+              <li><Link className="nav-link" to="/produk">Produk</Link></li>
               <li><Link className="nav-link" to="/features">Features</Link></li>
               <li><Link className="nav-link" to="/about">About</Link></li>
             </ul>
