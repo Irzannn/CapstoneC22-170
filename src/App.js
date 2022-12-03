@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import HomePage from './pages/HomePage';
 import FeaturePage from './pages/FeaturePage';
 import AboutPage from './pages/AboutPage';
+import PageNotFound from './pages/PageNotFound';
 
 import { Route, Routes } from "react-router-dom";
 
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Route path="/" element={<HomePage/>}/>
             <Route path="/features" element={<FeaturePage/>}/>
             <Route path="/about" element={<AboutPage/>}/>
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </main>
         <Footer/>

@@ -18,6 +18,14 @@ body
         height: 100%;
         overflow-x: hidden;
     }
+
+.page_error {
+    max-width: 400px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
 	
 .tm-white a {
 	color: #fff;
