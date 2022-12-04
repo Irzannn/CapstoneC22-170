@@ -65,7 +65,7 @@ img
 /* over lay */
 
 /* start page container */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     width: 700px;
   }
@@ -79,7 +79,7 @@ img
   .container {
     width: 1000px;
   }
-}
+} */
 /* end page container */
 
 /* start preloader */

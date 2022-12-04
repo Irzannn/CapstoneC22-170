@@ -1,10 +1,14 @@
 import React from "react";
+import OurTeam from "../components/OurTeam";
 
 function AboutPage() {
   return (
-    <div className='container'>
-      <h2 classname='text-uppercase text-center'>About</h2>
-    </div>
+    <>
+      <div className='container'>
+        <h2 className='text-center mt-3'>Our Teams</h2>
+      </div>
+      <OurTeam />
+    </>
   );
 }
 

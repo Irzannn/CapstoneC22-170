@@ -1,5 +1,4 @@
 import React from "react";
-import '../components/Jumbotron';
 import Jumbotron from "../components/Jumbotron";
 import Penjelasan from "../components/Penjelasan";
 import HowToOrder from "../components/HowToOrder";
@@ -11,7 +10,7 @@ function HomePage() {
     <>
       <Jumbotron />
       <div className='container'>
-        <h2 classname='text-uppercase text-center'>Home</h2>
+        <h2 className='text-center mt-3'>Home</h2>
       </div>
       <Penjelasan/>
       <HowToOrder/>
