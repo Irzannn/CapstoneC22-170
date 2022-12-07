@@ -17,10 +17,10 @@ function OurTeam () {
         <div className='col'>
           <div className='card shadow border-0 h-100'>
             <div className='card-body'>
-              <img className='image_profile mb-3 rounded-circle' variant="top" src='/images/profile_blank.jpg' alt="profile" />
+              <img className='image_profile mb-3 rounded-circle' variant="top" src='/images/fernanda.jpg' alt="profile" />
               <h5 className='text-center font-weight-bold pb-3'>Muhammad Fernanda Naufal Fathoni</h5>
               <p className='text-center'>UPN Veteran Jatim</p>
-              <p className='text-center'>Program Studi??</p>
+              <p className='text-center'>Informatika</p>
             </div>
           </div>
         </div>
